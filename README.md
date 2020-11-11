@@ -29,19 +29,19 @@ Alternatively, you can run the app without packaging it using -
 mvn spring-boot:run
 ```
 
-The app will start running at <http://localhost:8080>.
+The app will start running at <http://localhost:9191>.
 
 ## Explore Rest APIs
 
 The app defines following CRUD APIs.
 
-    GET /api/v1/users
+    GET localhost:9191/books/
     
-    POST /api/v1/users
+    POST localhost:9191/books/id
     
-    GET /api/v1/users/{userId}
+    GET localhost:9191/books/id
     
-    PUT /api/v1/users/{userId}
+    PUT localhost:9191/books/id
     
-    DELETE /api/v1/users/{userId}
+    DELETE localhost:9191/books/id
 
